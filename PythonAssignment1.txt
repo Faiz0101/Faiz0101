@@ -1,0 +1,180 @@
+
+
+Ans:1 Python is easy for humans to understand and It is based around objects rather than function(i.e, Object oriented
+
+Ans:2 Python is called a dynamically typed language because type of the variable is determined only during runtime. It stores that value at some memory location and then binds that variable name to that memory container.
+
+Ans:3  Pros of Python Programming Language:
+
+ 1.Python has extensive libraries which can be used for developing websites and software, data analysis, and data visualization
+ 2.It is easy to use and has increased productivity.
+ 3.It is Easily Portable
+
+          Cons of Python Programming language:
+
+ 1.It is slower than compiled languages like(C, C++,Java).
+ 2.It has Inefficient Memory Consumption.
+ 3.It has problems with multithreading
+
+
+Ans:4 Python can be used in following domains:
+
+1.Data Engineering
+2.Data Science
+3.Data Analytics
+4.Web Development
+5.Scientific programming
+6.GUI Interface
+7.Gaming
+
+Ans:5   Variables are specific name given to memory location where the values are stored.
+
+             Syntax: Varname = value
+ 
+Ans:6 By using inbuilt function input()
+                        Eg: int_var = input("Enter a integer value")
+
+Ans:7 String(str)
+
+Asn:8 Converting one data type to another data type is type casting. 
+
+                             Example: value = int_value = 2
+                                               print(type(int_value))
+                                               type_casted_value = str(int_value)
+                                               print(type(type_casted_value))
+                                               print(type(type_casted_value))
+                               
+
+Ans:9 By Default, input() cannot take multiple inputs because type of input() is str as it is depends on packing and unpacking
+
+Ans:10 Keywords are predefined words or reserved words in python and It is case sensitive
+
+Ans:11 No, keywords cannot be used as a variable because If we assign keyword to variable we will get a SyntaxError.
+
+Ans:12 Indentation refers to spaces which defines a block of code. The code block(body of a function,loops etc) starts with              identation and ends with the first unintended line.
+                    Example:
+                                        for i in range(10):
+                                                 print(i)
+
+
+Ans:13 print("Ineuron assignment")
+
+Ans:14   Operators are special symbols in python that carry out arithmetic or logical computations.The value that the operator operates on is called operand.
+
+Operator Types:
+                             1)Arithmetic Operators.
+                             2)Relational Operators.
+                             3)Boolean Operators.
+                             4)Bitwise Operators.
+                             5)Assignement Operators.
+                             6)Special Opeartors(Identity Operator and Membership Operator)
+
+
+
+Ans:15    1. (Float Divison): This operator divides left operand with right operand and gives the result value in floating values if                        present. Eg: 5/2 = 2.5
+         2.(Integer Divison): This operator divides left operand with right operand and gives the near lowest whole number Eg: 5//2 = 2
+
+
+Ans:16  #Code#
+             print("iNeuron"*4) 
+
+Ans:17 #Code#
+  num = int(input("Enter the no.: "))                         
+ if num%2 == 0:
+    print("It is even no.")
+
+else:
+    print("It is odd no.")
+
+
+Ans:18 Some Example of logical operators are:-
+                     AND
+                     OR
+                     NOT  
+Ans:19 The output will be:-
+                True
+                False
+                False
+                True  
+
+Ans:20 Conditional statement are also called as Decision Statements which is used to execute certain set of statements based on specified condtion.
+
+1)if
+
+2)if-else
+
+3)elif
+
+4)nested if
+
+Ans:21 If: the program evaluates the condition and will execute statements only if given condition is True.
+
+Syntax: if (Condtion): statement
+
+Elif: Elif keyword executes multiple conditions by including one or more check after if keyword is executed.
+
+Syntax: if (Condtion): statement elif(condtion): statement
+
+Else: Else keyword provides the output if (If) condition is False. Syntax: if (Condtion): statement else: statement
+
+Ans22:   #Code#
+
+ age = int(input("Enter your age: "))
+if age>= 18:
+    print("You can vote")
+else:
+    print("You cannot vote")
+ 
+Ans23:   #Code#
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+sum = 0
+for items in numbers:
+    if items % 2 == 0:
+        sum  = sum + items
+print("The sum of numbers is" , sum)
+
+Ans24:   #Code#
+
+a = int(input("Enter the first no.: "))
+b = int(input("Enter the second no.: "))
+c = int(input("Enter the third no.: "))
+if a>b and a>c:
+    print(a ,"is maximum")
+elif b>a and b>c:
+    print(b,"is maximum")
+else:
+    print(c,"is maximum")
+
+Ans25: 
+- The number must be divisible by five:-
+        #Code#
+numbers = [12, 75, 150, 180, 145, 525, 50]
+  for items in numbers:
+     if items%5 == 0:
+         print(items)
+- If the number is greater than 150, then skip it and move to the next number:-
+       #Code#
+ numbers = [12, 75, 150, 180, 145, 525, 50]
+ for items in numbers:
+        if items<150:
+             print(items)
+- If the number is greater than 500, then stop the loop:-
+     #Code#
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for items in numbers:
+    if items>500:
+        break
+    else:
+        print(items)
+
+
+
+
+                 
+           
+                     
+
+
+
+ 
